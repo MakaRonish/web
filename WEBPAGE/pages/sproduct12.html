@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- Creating Head -->
+<head>
+    <!-- Creating meta Elements -->
+    <meta charset="utf-8">
+	<meta name="descriptiont" content="Our webpage">
+	<meta name="keywords" content="HTML,CSS,JavaScript">
+	<meta name="author" content="Team">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- End of meta Elements -->
+    <title>sproduct</title>
+    <!-- Linking with external CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<!-- Ending head -->
+<style type="text/css"> /* Internal CSS*/
+    #prodetails {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #prodetails .single-pro-img {
+        width:40%;
+        margin-right: 50px;
+    }
+
+    .small-image-group{
+        display: flex;
+        justify-content: space-between;
+    }
+    .small-image-col{
+        flex-basis: 32%;
+        cursor: pointer;
+    }
+
+    #prodetails .single-pro-details{
+        width: 50%;
+        padding-top: 30px;
+    }
+
+    #prodetails .single-pro-details select{
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    #prodetails .single-pro-details button{
+        border: 2px solid #464240;
+        background: #088178;
+        color:#fff;
+        font-weight: bold;
+        margin: 10px;
+        padding: 5px 10px;
+    }
+
+    #prodetails .single-pro-details span{
+        line-height: 25px;
+    }
+</style>
+<!-- End of Internal CSS -->
+
+<!-- Body Starts -->
+<body>
+    <!-- The header section contains the logo and the navigation bar -->
+    <section class="header">
+        <!-- A link to the main page, with the logo image -->
+        <a href="../index.html"><img src="../img/logo.png" class="logo" width="125px"></a> 
+            <div>
+                <ul class="navbar">
+                <li><a href="../index.html" alt="logo">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                </ul>
+            </div>
+       </section>
+       <!-- End of header section -->
+    
+      <!-- The product details section -->
+    
+     <section id="prodetails" class="section-1" >
+         <!-- This division is the main product image container -->
+        <div class="single-pro-img">
+            <img src="../img/S-12.avif" width="100%" id="MainImg" alt="">
+            
+            <div class="small-image-group">
+                <div class="small-image-col">
+                    <img src="../img/S-12.avif" width="100%" class="small-img" alt="">
+                </div>  
+            <div class="small-image-col">
+                <img src="../img/S-12.1.avif" width="100%" class="small-img" alt="">
+            </div>
+            <div class="small-image-col">
+                <img src="../img/S-12.2.avif" width="100%" class="small-img" alt="">
+            </div>   
+            <!--Ending div for small-image col  -->
+        </div>
+        <!-- Ending div for small-image-group -->
+        </div>
+        <!-- Ending div for single-pro-img -->
+
+        <!-- This is a division to display the details of a single product -->
+        <div class="single-pro-details">
+            <h6>Home/Bonsai</h6><br>
+            <h4>Imili Bonsai</h4><br>
+            <h2>Rs 3499</h2><br>
+            
+            <!-- button to add the product to the cart -->
+            <button onclick="ComingSoon()" class="Button1" >Buy Now</button>
+            <button onclick= "ComingSoon()" class="Button1">Add To Cart</button>
+            <h4>Plant Details</h4><br>
+            <span style="color: #8e8e8e;">Give a magnificent appearance to your house purely beyond compare with an imli bonsai
+                 plant from the outdoor category of plants. A terracotta tray that comes along with the beautiful plant and improves 
+                 your home decor and vibe in and around the house. Don't hide from gifting it to your loved ones too.#the imli bonsai plant
+                 is good for lowering cholesterol levels. <br><br>
+                 Caring Tips <br>
+                 Water The Plant Regularly When The Soil Appears Dry.<br>
+                 After The Plant Has Grown;It Can Survive For Days Without Water.<br>
+                 Repot The Plant When The Roots Consume The Current Pot Completely.<br>
+                 The Image Is Indicative In Nature. As Plants Are Natural Products;Shape And Size May Be Of Varying Scale.
+                 For Flowering Plants;The Flower Can Be Fully Bloomed;Semi Bloomed Or In Bud Stage.<br>
+                 It Can Be Delivered The Same Day As Order Placement.
+                   </span>
+        </div>
+     </section><br><br><br>
+     <!-- end of the section to display the details of a single product -->
+
+      <!-- Repeat of the product container for the other products. -->
+     <section class="header3" class="section-p1">
+        <div>
+          <h4 class="featured" style="text-align: center;">FEATURED PRODUCTS</h4>  
+        </div>
+        </section>
+
+        <section id="header4" class="section-p1">
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="../img/F-1.jpg" >
+                    <div class="des">
+                        <h5>Francesco Tommasini Bonsai</h5>
+                        <h2 style="color: #088178;">$68</h2>
+                       
+                    </div>
+                    <button onclick="" class="Button1">Add To Cart</button>
+                </div>
+                <div class="pro-container">
+                    <div class="pro">
+                        <img src="../img/F-2.jpg" alt="img">
+                        <div class="des">
+                            <h5>Todd Trapani Bonsai</h5>
+                            <h2 style="color: #088178;">$65</h2>
+                        </div>
+                        <button onclick="" class="Button1">Add To Cart</button>
+                    </div>
+                    <div class="pro-container">
+                        <div class="pro">
+                            <img src="../img/F-3.jpg" alt="img">
+                            <div class="des">
+                                <h5>Chinese Penjing specimen Bonsai</h5>
+                                <h2 style="color: #088178;">$79</h2>
+                            </div>
+                            <button onclick="" class="Button1">Add To Cart</button>
+                        </div>
+                        <div class="pro-container">
+                            <div class="pro">
+                                <img src="../img/F-4.jpg" alt="img">
+                                <div class="des">
+                                    <h5>Carpinus Gerardo Cueto Figaredo</h5>
+                                    <h2 style="color: #088178;">$67</h2>
+                                </div>
+                                <button onclick="" class="Button1">Add To Cart</button>
+                            </div>
+                </div>
+        </section>
+             <!-- End of section -->
+         <!-- Footer Section -->
+        <footer>
+            <div class="footer">
+                <p>Copyright ©2023 Bonsai</p>
+            </div>
+        </footer>
+        <!-- Footer ends -->
+
+        <!-- External JS -->
+        <script src="../js/script.js" >           
+        </script>    
+    </body>
+    <!-- Body Ends -->
+    </html>
+     
+    

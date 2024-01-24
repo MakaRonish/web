@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!-- Creating head -->
+
+<head>
+  <!-- Creating meta elements -->
+  <meta charset="utf-8">
+  <meta name="descriptiont" content="Our webpage">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Team">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- End of meta elements -->
+  <title>Blog</title>
+  <!-- Linking external CSS -->
+  <link rel="stylesheet" href="../css/style.css">
+
+  <style type="text/css">
+    /*Internal CSS */
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 35px;
+    }
+
+    .box h2 {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .box p {
+      font-size: 1.2em;
+      color: #333;
+    }
+
+    .box a {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .box {
+      width: 600px;
+      padding: 30px;
+      margin: 20px;
+      background-color: #f2f2f2;
+      box-shadow: 0px 0px 10px #ccc;
+      text-align: justify;
+      border-radius: 5px;
+    }
+
+    .image-container {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      top: -20px;
+      left: 0;
+      justify-content: center;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 95%;
+      object-fit: cover;
+    }
+
+    .box-heading {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .box-text {
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .read-more {
+      text-align: center;
+      text-decoration: none;
+      color: #333;
+      border: 1px solid #333;
+      padding: 10px 20px;
+      border-radius: 5px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .read-more:hover {
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+
+    }
+  </style>
+  <!-- Ending internal CSS -->
+</head>
+<!-- Body starts -->
+
+<body>
+  <!-- This section is for navigation bar-->
+  <section class="header">
+    <!-- "a href" is used for links and "img src" is used to link images. -->
+    <a href="../index.html"><img src="../img/logo.png" class="logo" width="125px"></a>
+    <div>
+      <ul class="navbar">
+        <li><a href="../index.html" alt="logo">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a class="active" href="blog.html">Blog</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+      </ul>
+    </div>
+  </section>
+  <!-- Ending navigation bar section -->
+
+  <!-- This section is for the text in the cover page  -->
+  <section class="blog-header2">
+    <h4 style="color: white;">Impacts of Technology in Daily Life</h4>
+  </section>
+  <!-- ending section -->
+
+
+  <div>
+    <!-- Making a division container where it keeps img and text. -->
+    <div class="container">
+      <!-- Making a div box  -->
+      <div class="box">
+        <!-- Making div for image -->
+        <div class="image-container">
+          <img src="../img/Blog-1.png" alt="image">
+        </div>
+        <!-- Ending div for img -->
+
+        <!-- h2 is for the heading inside the box and and  p for paragraph -->
+        <h2 class="box-heading">About Technology</h2>
+        <p class="box-text">Technology is a vital component of life in the modern world. People are so dependent on
+          technology that they cannot live without it. Technology is important and useful in all areas of human life
+          today. It has made life easy and comfortable by making communication and transport faster and easier
+          (Harrington, 2011, p.35).
+
+          It has made education accessible to all, and has improved healthcare services. Technology has made the world
+          smaller and a better place to live. Without technology, fulfilling human needs would be a difficult task.
+          Before advent of technology, human beings were still fulfilling their needs. However, with technology,
+          fulfillment of needs became easier and faster.</p>
+        <a href="https://ivypanda.com/essays/technology-affecting-our-daily-life/" class="read-more" target="blank">Read
+          More</a>
+      </div>
+      <!-- Ending div box -->
+
+      <!-- Making another div box  -->
+      <div class="box">
+        <!-- Making div for image -->
+        <div class="image-container">
+          <img src="../img/Blog-2.jpg" alt="image">
+        </div>
+        <!-- Ending div for img -->
+
+        <!-- h2 is for the heading inside the box and and  p for paragraph -->
+        <h2 class="box-heading">Positive Impact Of Technology</h2>
+        <p class="box-text">Many new tech advancements and innovations are made by and for businesses. Why? Because
+          companies are always looking to upgrade their products and services for profit.
+
+          New technology continues to come out faster than we can keep up with. The purpose is to boost business and
+          make the daily management of enterprises more systematic, structured, and successful.
+
+          Tech has boosted businesses by improving the hiring process, error-free collection and analysis of business
+          data, and better communication with clients and partners.Advancements in tech have made it easier for more
+          people to access the internet, resulting in online shopping being more popular now than ever.
+
+          Currently, most people prefer to shop online without leaving the house because of its sheer convenience.
+          Instead of wasting hours in the shopping mall, tech makes shopping simple.</p>
+        <a href="https://www.makeuseof.com/effects-of-technology-on-life/" class="read-more" target="blank">Read
+          More</a>
+      </div>
+      <!-- Ending div box -->
+
+      <!-- Making another div box  -->
+      <div class="box">
+        <!-- Making div for image -->
+        <div class="image-container">
+          <img src="../img/Blog-3.jpg" alt="image">
+        </div>
+        <!-- Ending div for img -->
+
+        <!-- h2 is for the heading inside the box and and  p for paragraph -->
+        <h2 class="box-heading">Negative Impact Of Technology</h2>
+        <p class="box-text">The negative impacts of technology can include things like increased distraction and
+          decreased
+          face-to-face communication, as well as a greater potential for addiction and social isolation. First, people
+          have
+          become more anti-social because of change in methods of socializing (Harrington, 2008, p.103). Today, one does
+          not
+          need to interact physically with another person in order to establish a relationship.</p>
+        <a href="https://ivypanda.com/essays/technology-affecting-our-daily-life/" class="read-more" target="blank">Read
+          More</a>
+      </div>
+      <!-- Ending div box -->
+
+      <!-- Making another div box  -->
+      <div class="box">
+        <!-- Making div for image -->
+        <div class="image-container">
+          <img src="../img/Blog-4.jpg" alt="image">
+        </div>
+        <!-- Ending div for img -->
+
+        <!-- h2 is for the heading inside the box and and  p for paragraph -->
+        <h2 class="box-heading">Technology's Impact on Bonsai Plant Sales</h2>
+        <p class="box-text">Technology has had a significant impact on the way
+          bonsai plants are sold. E-commerce platforms, such as websites and online
+          marketplaces, have made it easier for bonsai sellers to reach a wider audience
+          and expand their customer base. Social media has also played a role in promoting
+          bonsai plants, allowing sellers to share pictures and information about their products
+          with many people. Additionally, technology has made it possible for sellers to automate
+          certain aspects of their business, such as inventory management and order fulfillment. Overall,
+          technology has greatly increased the efficiency and effectiveness of selling bonsai plants.</p>
+      </div>
+      <!-- Ending div box -->
+
+      <!-- Making another div box  -->
+      <div class="box">
+        <!-- Making div for image -->
+        <div class="image-container">
+          <img src="../img/Blog-5.jpg" alt="image">
+        </div>
+        <!-- Ending div for img -->
+
+        <!-- h2 is for the heading inside the box and and  p for paragraph -->
+        <h2 class="box-heading">Conclusion</h2>
+        <p class="box-text">In conclusion, technology has had a significant impact on the way bonsai plants
+          are sold. The use of e-commerce platforms and social media has allowed sellers to expand their reach
+          and promote their products to a wider audience. Additionally, technology has made it possible for sellers
+          to automate certain aspects of their business, resulting in increased efficiency and effectiveness. Overall,
+          technology has greatly improved the process of selling bonsai plants and has opened up new opportunities for
+          bonsai sellers.</p>
+      </div>
+      <!-- Ending div box -->
+    </div>
+    <!-- Ending div container -->
+  </div>
+  <br><br>
+
+  <!-- footer starts -->
+  <footer>
+    <div class="col">
+      <img src="../img/logo.png" class="logo" width="125px"><br>
+      <h2>Contact</h2><br>
+      <p style="color:#8e8e8e"> <strong>Address:</strong> Purano Baneshwor, Kathmandu</p><br>
+      <p style="color:#8e8e8e"><strong>Phone:</strong> +977 9829527535</p><br>
+      <p style="color:#8e8e8e"><strong>Hours:</strong>10:00 - 9:00, Sun - Fir</p><br>
+      <div class="follow">
+        <h2>Follow us</h2><br>
+        <div class="icon">
+          <i class="fa fa-facebook-f" style="font-size: 24px;"></i>
+          <i class="fa fa-instagram" style="font-size: 24px;"></i>
+          <i class="fa fa-twitter" style="font-size: 24px;"></i>
+          <i class="fa fa-youtube-play" style="font-size: 24px;"></i>
+          <i class="fa fa-pinterest" style="font-size: 24px;"></i>
+        </div><br>
+        <div class="copyright">
+          <p style="color:#8e8e8e"> &copy;2023, Chilly - HTML CSS JS Ecommerce Tempelate</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h2>About us</h2><br>
+      <a href="#" style="color:#8e8e8e">About us</a>
+      <a href="#" style="color:#8e8e8e">Delivery Information</a>
+      <a href="#" style="color:#8e8e8e">Privacy Policy</a>
+      <a href="#" style="color:#8e8e8e">Terms and Conditions</a>
+      <a href="#" style="color:#8e8e8e">Contact us</a>
+    </div>
+
+    <div class="col">
+      <h2>My account</h2><br>
+      <a href="#" style="color:#8e8e8e">Sign In</a>
+      <a href="#" style="color:#8e8e8e">View Cart</a>
+      <a href="#" style="color:#8e8e8e">My wishlist</a>
+      <a href="#" style="color:#8e8e8e">Track My Order</a>
+      <a href="#" style="color:#8e8e8e">Help</a>
+    </div>
+
+    <div class="col install">
+      <h2>Install App</h2><br>
+      <p style="color:#8e8e8e">From App Store or Google Play</p><br>
+      <div class="row">
+        <img src="../img/appstore.png" width="300px" height="100px">
+        <img src="../img/google pay.png" width="300px" height="100px">
+      </div>
+      <p style="color:#8e8e8e">Secured Payment Gateways</p><br>
+      <img src="../img/payment .png" width="400px" height="150px">
+    </div>
+
+
+  </footer>
+  <!-- Ending footer -->
+</body>
+<!-- Ending body -->
+
+</html>

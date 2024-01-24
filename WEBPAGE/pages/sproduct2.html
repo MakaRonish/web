@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!--Creating Head-->
+
+<head>
+    <!--Creating meta elements -->
+    <meta charset="utf-8">
+    <meta name="descriptiont" content="Our webpage">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Team">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sproduct</title>
+    <!-- Linking with external CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--End of meta elements-->
+</head>
+<style type="text/css">
+    /*Internak CSS*/
+    #prodetails {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    #prodetails .single-pro-img {
+        width: 40%;
+        margin-right: 50px;
+    }
+
+    .small-image-group {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .small-image-col {
+        flex-basis: 32%;
+        cursor: pointer;
+    }
+
+    #prodetails .single-pro-details {
+        width: 50%;
+        padding-top: 30px;
+    }
+
+    #prodetails .single-pro-details select {
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    #prodetails .single-pro-details button {
+        border: 2px solid #464240;
+        background: #088178;
+        color: #fff;
+        font-weight: bold;
+        margin: 10px;
+        padding: 5px 10px;
+    }
+
+    #prodetails .single-pro-details span {
+        line-height: 25px;
+    }
+</style>
+
+<body>
+    <!-- The header section contains the logo and the navigation bar -->
+    <section class="header">
+        <!-- A link to the main page, with the logo image -->
+        <a href="../index.html"><img src="../img/logo.png" class="logo" width="125px"></a>
+        <div>
+            <ul class="navbar">
+                <li><a href="../index.html" alt="logo">Home</a></li>
+                <li><a class="active" href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- The product details section -->
+    <section id="prodetails" class="section-1">
+        <!-- This division is the main product image container -->
+        <div class="single-pro-img">
+            <img src="../img/S-2.avif" width="100%" id="MainImg" alt="">
+
+            <!-- This is a division container for the small images -->
+            <div class="small-image-group">
+                <div class="small-image-col">
+                    <img src="../img/S-2.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img src="../img/S-2.1.avif" width="100%" class="small-img" alt="">
+                </div>
+                <div class="small-image-col">
+                    <img src="../img/S-2.2.avif" width="100%" class="small-img" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- This is a division to display the details of a single product -->
+        <div class="single-pro-details">
+            <h6>Home/Bonsai</h6><br>
+            <h4>charming Safari Bonsai</h4><br>
+            <h2>Rs 1899</h2><br>
+            <!-- button to add the product to the cart -->
+            <button onclick="ComingSoon()" class="Button1">Buy Now</button>
+            <button onclick="ComingSoon()" class="Button1">Add To Cart</button>
+            <h4>Plant Details</h4><br>
+            <span style="color: #8e8e8e;">Bring home the goodness of nature with this charming safari bonsai
+                in a black face mask pot. This plant is perfect for outdoor locations and comes in a plastic vase.
+                This beautiful plant will bring you closer to nature and you will enjoy its presence around you.Order
+                now and add a bonsai to your home. # Bonsai has many health and spiritual benefits and its origins date
+                back
+                2000 years. <br><br>
+                Caring Tips <br>
+                Prune off 2 leaves after every 8 leaves have grown. <br>
+                Water when the soil starts to look dry. <br>
+                Feed 2 weeks during the summers and 4 times in total during winters. <br>
+                The image is indicative in nature. As plants are natural products, shape and size may be of varying
+                scale. <br>
+                For flowering plants, the flower can be fully bloomed, semi bloomed or in bud stage. <br>
+                It can be delivered the same day as order placement. <br>
+            </span>
+
+        </div>
+        <!-- end of the section to display the details of a single product -->
+    </section><br><br><br>
+
+    <section class="header3" class="section-p1">
+        <div>
+            <h4 class="featured" style="text-align: center;">FEATURED PRODUCTS</h4>
+        </div>
+    </section>
+
+    <!-- This section is the header3 section and has the class "header3" and "section-p1". -->
+    <section id="header4" class="section-p1">
+        <div class="pro-container">
+            <div class="pro">
+                <img src="../img/F-1.jpg">
+                <div class="des">
+                    <h5>Francesco Tommasini Bonsai</h5>
+                    <h2 style="color: #088178;">$68</h2>
+
+                    <!-- button to add the product to the cart -->
+                </div>
+                <button onclick="" class="Button1">Add To Cart</button>
+            </div>
+            <!-- Repeat of the product container for the other products. -->
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="../img/F-2.jpg" alt="img">
+                    <div class="des">
+                        <h5>Todd Trapani Bonsai</h5>
+                        <h2 style="color: #088178;">$65</h2>
+                    </div>
+                    <!-- button to add the product to the cart -->
+                    <button onclick="" class="Button1">Add To Cart</button>
+                </div>
+                <div class="pro-container">
+                    <div class="pro">
+                        <img src="../img/F-3.jpg" alt="img">
+                        <div class="des">
+                            <h5>Chinese Penjing specimen Bonsai</h5>
+                            <h2 style="color: #088178;">$79</h2>
+                        </div>
+                        <button onclick="" class="Button1">Add To Cart</button>
+                    </div>
+
+                    <!-- Repeat of the product container for the other products. -->
+                    <div class="pro-container">
+                        <div class="pro">
+                            <img src="../img/F-4.jpg" alt="img">
+                            <div class="des">
+                                <h5>Carpinus Gerardo Cueto Figaredo</h5>
+                                <h2 style="color: #088178;">$67</h2>
+                            </div>
+                            <button onclick="" class="Button1">Add To Cart</button>
+                        </div>
+                    </div>
+    </section>
+    <footer>
+        <!-- Footer section -->
+        <div class="footer">
+            <p>Copyright ©2023 Bonsai</p>
+        </div>
+        <!-- End of footer section -->
+    </footer>
+    <!--Linking external JavaScript-->
+    <script src="../js/script.js">
+    </script>
+</body>
+
+</html>
