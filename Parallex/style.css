@@ -5,6 +5,9 @@
     font-family: monospace;
     scroll-behavior: smooth;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
 
     min-height: 100vh;
@@ -90,4 +93,23 @@ div::before{
 .bottom p{
     font-size: 1.2em;
     color: #8d99ae;
+}
+.change{
+    display: flex;
+    justify-content: space-between;
+}
+.but1{
+    margin-left: 50px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+}
+.but2{
+    margin-right: 50px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 50px;
+    height: fit-content;
+
+}
+#text{
+    padding-bottom: 50px;
 }

@@ -2,14 +2,25 @@ let stars = document.getElementById('tara');
 let moon = document.getElementById('moon');
 let mountain = document.getElementById('mountain');
 let bottomSection = document.querySelector('.bottom');
+let button = document.querySelector('.but2');
+let clickCount = 1;
 
-// window.addEventListener('scroll',function(){
-//     let value = this.window.scrollY;
+button.addEventListener('click', function() {
+    clickCount++;
 
-//     stars.style.left=value*0.25+'px';
-//     moon.style.top=value*1.05+'px';
-//     mountain.style.top=value*0.5+'px';
-// })
+    const positions = [
+        { marginLeft: '50px' },
+        { marginLeft: 'calc(50% - 100px)' },
+        { marginLeft: 'calc(100% - 200px)' },
+        { marginLeft: '50px' }, 
+        { marginLeft: '150px' } 
+    ];
+
+
+    button.style.marginLeft = positions[clickCount % positions.length].marginLeft;
+});
+
+
 
 window.addEventListener('scroll', function(){
     let windowHeight = window.innerHeight;
@@ -27,3 +38,4 @@ window.addEventListener('scroll', function(){
         mountain.style.top = scrollPosition * 0.5 + 'px';
     }
 });
+
