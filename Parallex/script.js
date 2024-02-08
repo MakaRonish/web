@@ -28,10 +28,8 @@ window.addEventListener('scroll', function(){
     let bottomSectionTop = bottomSection.offsetTop;
     let scrollPosition = window.scrollY;
 
-    // Calculate the maximum scroll position
     let maxScroll = bottomSectionTop + bottomSectionHeight - windowHeight;
 
-    // Ensure the scroll position stays within the defined range
     if (scrollPosition <= maxScroll && scrollPosition >= bottomSectionTop - windowHeight) {
         stars.style.left = scrollPosition * 0.25 + 'px';
         moon.style.top = scrollPosition * 1.05 + 'px';
