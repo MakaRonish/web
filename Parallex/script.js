@@ -5,20 +5,20 @@ let bottomSection = document.querySelector('.bottom');
 let button = document.querySelector('.but2');
 let clickCount = 1;
 
-button.addEventListener('click', function() {
-    clickCount++;
+// button.addEventListener('click', function() {
+//     clickCount++;
 
-    const positions = [
-        { marginLeft: '50px' },
-        { marginLeft: 'calc(50% - 100px)' },
-        { marginLeft: 'calc(100% - 200px)' },
-        { marginLeft: '50px' }, 
-        { marginLeft: '150px' } 
-    ];
+//     const positions = [
+//         { marginLeft: '50px' },
+//         { marginLeft: 'calc(50% - 100px)' },
+//         { marginLeft: 'calc(100% - 200px)' },
+//         { marginLeft: '50px' }, 
+//         { marginLeft: '150px' } 
+//     ];
 
 
-    button.style.marginLeft = positions[clickCount % positions.length].marginLeft;
-});
+//     button.style.marginLeft = positions[clickCount % positions.length].marginLeft;
+// });
 
 
 

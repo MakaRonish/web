@@ -111,7 +111,8 @@ div::before{
 
 }
 #text{
-    padding-bottom: 50px;   
+    margin-bottom: 50px;   
+    text-align: center;
 }
 .tt{
     color: #8d99ae;
@@ -120,4 +121,7 @@ div::before{
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+.but2:hover{
+    display: none;
 }
